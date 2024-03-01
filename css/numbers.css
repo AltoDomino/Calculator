@@ -1,0 +1,23 @@
+.row > button {
+    border: 1px solid#000;
+    background: #c4c4c4;
+    color: #000;
+    font-size: 50px;
+    width: 126px;
+    height: 91px;
+}
+.row {
+    display: flex;
+}
+.number_1 {
+    border-top-left-radius: 3px;
+}
+.number_3 {
+    border-top-right-radius: 3px;
+}
+.number_10 {
+    border-bottom-left-radius: 3px;
+}
+.number_12 {
+    border-bottom-right-radius: 3px;
+}

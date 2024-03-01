@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 1023px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .operation > * {
+       border-radius: 3px;
+       border: 1px solid #00a688;
+       background: #eafff5;
+       width: 100px;
+       height: 71px;
+       color: #000;
+       font-size: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .operation {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 378px;
+   }
+   .result {
+       color: #000;
+       font-size: 80px;
+       height: 94px;
+       width: 90px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .calculate{
+       width: 378px;
+       height: 71px;
+       border-radius: 3px;
+       border: 1px solid #0011a6;
+       background: #e9e8ff;
+       color: #000;
+       font-size: 35px;
+   }
+   .options > button {
+       width: 94.5px;
+       height: 71px;
+       border: 1px solid #ffb800;
+       background: #fff384;
+       color: #000 ;
+       font-size: 50px;
+   }
+   .options{
+   display: flex;
+   }
+   .options :first-of-type {
+   border-radius: 3px 0 0 3px;
+   }
+   .options :first-of-type {
+   border-radius: 0 3px 3px 0;
+   }
+   .row > button {
+       border: 1px solid#000;
+       background: #c4c4c4;
+       color: #000;
+       font-size: 50px;
+       width: 126px;
+       height: 91px;
+   }
+   .row {
+       display: flex;
+   }
+   button {
+       cursor: pointer;
+   }
+   button :active {
+       border-width: 3px;
+   }
+   .calculator {
+       width: 378px;
+       height: 829px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .number_1 {
+       border-top-left-radius: 3px;
+   }
+   .number_3 {
+       border-top-right-radius: 3px;
+   }
+   .number_10 {
+       border-bottom-left-radius: 3px;
+   }
+   .number_12 {
+       border-bottom-right-radius: 3px;
+   }
+

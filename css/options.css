@@ -1,0 +1,17 @@
+.options > button {
+    width: 94.5px;
+    height: 71px;
+    border: 1px solid #ffb800;
+    background: #fff384;
+    color: #000 ;
+    font-size: 50px;
+}
+.options{
+display: flex;
+}
+.options :first-of-type {
+border-radius: 3px 0 0 3px;
+}
+.options :first-of-type {
+border-radius: 0 3px 3px 0;
+}
